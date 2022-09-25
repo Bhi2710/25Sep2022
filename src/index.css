@@ -1,0 +1,177 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+}
+
+:root{
+  --whiteGray: #e1e1e1;
+  --green: #0eca98;
+}
+
+body{
+  background-color: var(--whiteGray);
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.main{
+  height: 100vh;
+  width: 100wh;
+  /* background-color: var(--whiteGray); */
+}
+
+.bodyContainer{
+  width: 90%;
+  height: 70%;
+  margin: 8% 5%;
+  border-radius: 10px; 
+  display: flex;
+  flex-direction: row;
+}
+
+.leftContainer{ 
+  background-color: #ffffff;
+  width: 70%;
+  height: 100%;
+}
+
+.companyName{
+  margin: 8px;
+  font-weight: bold;
+  font-size: small;
+}
+
+.Center{
+  display: flex;
+  justify-content: center;
+}
+
+.Company{
+  color: var(--green);
+}
+
+hr{
+  border: 1.2px solid var(--green);
+  background-color: var(--green);
+  width: 30px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 2px;   
+}
+
+.sign{
+  color: var(--green);
+  font-size: x-large;
+  font-weight: bold;
+}
+
+img{
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  width: 28px;
+  padding: 4px;
+  margin: 15px 4px;
+}
+
+.orUse{
+  display: block;
+  text-align: center;
+  font-size: small;
+  color: lightgray;
+}
+
+input[type=email],
+input[type=password]{
+  margin-top: 15px;
+  padding: 6px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border: 1.8px solid var(--green);
+  border-radius: 4px;   
+}
+
+.rememberMe{
+  font-size: small;
+  font-weight: bold;
+  margin-left: 6px;
+}
+
+.forgetPassword{
+  margin-left: 64px;
+  font-size: small;
+  font-weight: bold;
+}
+
+.Checkbox{
+  display:flex;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.button1{
+  background-color: var(--green);
+  border: none;
+  color: white;
+  padding: 8px 30px;
+  border-radius: 15px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+.leftBottom{
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  margin-top: 5rem;
+}
+
+.privacy{
+  margin-right: 12px;
+}
+
+.rightContainer{
+  background-color: var(--green);
+  width: 30%;
+  height: 100%;
+  float: right;
+}
+
+.h2{
+  color: white;
+  margin-top: 35%;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: x-large;
+  gap: 1px;
+  margin-bottom: 18px;
+}
+.empty{
+  margin: auto;
+  height: 2px;
+  width: 28px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.Paragraph{
+  margin-top: 4px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.button2{
+  margin-top: 2rem;
+  border: 1.8px solid white;
+  background-color: var(--green);
+  padding: 8px 30px;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+}
